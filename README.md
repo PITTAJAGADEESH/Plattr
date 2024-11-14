@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Weather Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a Weather Dashboard application built with **ReactJS**. It allows users to search for a city and view the current weather as well as a 5-day forecast. The application fetches data from the **OpenWeatherMap API** to display weather details like temperature, humidity, wind speed, and more. Additionally, users can toggle between Celsius and Fahrenheit and switch between light and dark modes.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Search for cities**: Users can search for the weather of any city.
+- **Current Weather**: Displays current weather conditions such as temperature, humidity, wind speed, etc.
+- **5-day Forecast**: Shows weather data for the next 5 days.
+- **Unit Conversion**: Toggle between Celsius and Fahrenheit for temperature units.
+- **Light/Dark Mode**: Switch between light and dark themes for better readability.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can try the live version of this app at:  
+[Weather Dashboard](https://plattr.netlify.app/)
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **ReactJS**: Frontend framework for building the UI.
+- **Bootstrap**: CSS framework for styling the UI.
+- **Axios**: HTTP client for fetching data from the OpenWeatherMap API.
+- **OpenWeatherMap API**: Public API to get weather data.
+- **Netlify**: Platform for deploying the React app.
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project locally, you need to have **Node.js** and **npm** installed. You can download them from [Node.js official site](https://nodejs.org/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Project Locally
 
-### `npm run eject`
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/PITTAJAGADEESH/Plattr.git
+   ```
+2. Navigate into the project folder:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd weather-dashboard
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the project dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Run the development server:
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   This will open the app in your browser at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is deployed on **Netlify**. You can check the live site here:  
+[Weather Dashboard on Netlify](https://plattr.netlify.app/)
