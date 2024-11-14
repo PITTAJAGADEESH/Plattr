@@ -1,0 +1,149 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+h1,
+h3,
+h2 {
+  font-weight: 600;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 8px !important;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logo-edit {
+  display: flex;
+}
+
+.dark-mode {
+  background: linear-gradient(to right, #434343, #000000, #434343);
+  color: #f4f4f4;
+}
+
+.dark-mode .weather-card,
+.dark-mode .forecast-card {
+  background-color: #2b2b2b;
+  color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode h1,
+.dark-mode h3,
+.dark-mode h2 {
+  color: #f4f4f4;
+}
+
+.dark-mode .weather-dashboard {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dark-mode .company-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f4f4f4;
+  margin-left: 10px;
+}
+
+.weather-dashboard {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.weather-card,
+.forecast-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.weather-icon,
+.forecast-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #ffcc70, #ff8b6b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode .weather-icon,
+.dark-mode .forecast-icon {
+  background: radial-gradient(circle at center, #ff8b6b, #ffcc70);
+}
+
+.search-form {
+  width: 80%;
+  margin: auto;
+}
+
+.search-input {
+  font-size: 18px;
+}
+
+.search-btn {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #007bff;
+}
+
+.theme-toggle-btn {
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+}
+
+.company-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e1e1e;
+  margin-left: 10px;
+}
+
+.forecast-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .weather-card,
+  .forecast-card {
+    margin: 10px 0;
+  }
+  .weather-dashboard {
+    padding: 15px;
+  }
+}
