@@ -27,36 +27,6 @@ You can try the live version of this app at:
 
 ## Setup Instructions
 
-### Prerequisites
-
-To run this project locally, you need to have **Node.js** and **npm** installed. You can download them from [Node.js official site](https://nodejs.org/).
-
-### Running the Project Locally
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/PITTAJAGADEESH/Plattr.git
-   ```
-2. Navigate into the project folder:
-
-   ```bash
-   cd weather-dashboard
-   ```
-
-3. Install the project dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Run the development server:
-
-   ```bash
-   npm start
-   ```
-
-   This will open the app in your browser at `http://localhost:3000`.
-
 ## Deployment
 
 This project is deployed on **Netlify**. You can check the live site here:  
